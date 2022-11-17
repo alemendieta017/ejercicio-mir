@@ -4,7 +4,31 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
     <title>Login</title>
   </head>
-  <body></body>
+  <body>
+    <main>
+      <h1 class="title">Login</h1>
+      <form action="#">
+        <label for="username">User</label>
+        <input class="form-input" type="text" id="username"></input>
+        <label for="password">Password</label>
+        <input class="form-input" type="text" id="password"></input>
+        <label for="genero">Genero</label>
+        <select class="form-gender" id="gender">
+          <option value="H">Hombre</option>
+          <option value="M">Mujer</option>
+        </select>
+        <input type="checkbox" id="terms"></input>
+        <label for="terms">Acepto los términos y condiciones</label>
+        <div class="form-submit-btn">
+          <input class="form-submit-btn" type="submit">
+        </div>
+      </form>
+    </main>
+  </body>
 </html>
